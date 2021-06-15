@@ -39,12 +39,24 @@
   
   .list {
     list-style: none;
+    position: relative;
+    width: 100%;
+    height: 40vh;
     padding: 0;
-    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 1.5rem;
+    column-gap: .5rem;
+    
   }
+
   
   .listItem {
     margin: 0 0 1.25rem;
+    border: solid 2px black;
+    padding: 1rem;
+    
+    
   }
   
   .lightText {
