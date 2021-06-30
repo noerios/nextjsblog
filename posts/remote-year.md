@@ -1,6 +1,9 @@
 ---
 title: 'Remote Year'
 date: '2016-09-15'
+author: 'Rolando Noe Rios'
+coverImage: '/images/blog/remoteyear/ry.jpg'
+excerpt: 'Well, it’s been a crazy couple of weeks. In the past 14 days I’ve traveled a total of 11,396 miles; 21 hours of driving and 21 hours in flight. I’ve either sold or moved all my belongings across two time zones, and I’ve spent 14 hours in Hong Kong on a layover to remember.'
 ---
 
 Well, it’s been a crazy couple of weeks. In the past 14 days I’ve traveled a total of 11,396 miles; 21 hours of driving and 21 hours in flight. I’ve either sold or moved all my belongings across two time zones, and I’ve spent 14 hours in Hong Kong on a layover to remember.

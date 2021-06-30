@@ -1,6 +1,9 @@
 ---
 title: 'Kuala Lumpur I'
 date: '2016-09-16'
+author: 'Rolando Noe Rios'
+coverImage: '/images/blog/kualalumpurone/kualalumpur.jpg'
+excerpt: 'With week-two done, I can safely say this was a good idea. I’ve managed to figure out an appropriate work schedule and have developed a nice separation between worktime and playtime. Since my last post, I have accomplished a few things: I’ve made friends with some of the other Remotes, booked my first side-trip (a weekend in the Perhentian Islands with those same friends), and managed to get a full 8 hours of uninterrupted sleep on more than one occasion.'
 ---
 
 With week-two done, I can safely say this was a good idea. I’ve managed to figure out an appropriate work schedule and have developed a nice separation between worktime and playtime. Since my last post, I have accomplished a few things: I’ve made friends with some of the other Remotes, booked my first side-trip (a weekend in the Perhentian Islands with those same friends), and managed to get a full 8 hours of uninterrupted sleep on more than one occasion.

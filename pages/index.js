@@ -1,36 +1,37 @@
 import Head from 'next/head'
 import Layout, { siteTitle } from '../components/layout'
+import Container from '../components/container'
+import Intro from '../components/intro'
+import HeroPost from '../components/hero-post'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 import Date from '../components/date'
 
 import { getSortedPostsData } from '../lib/posts'
 
-export async function getStaticProps() {
-  const allPostsData = getSortedPostsData()
-  return {
-    props: {
-      allPostsData
-    }
-  }
-}
+
 
 export default function Home({ allPostsData }) {
+  const heroPost = allPostsData[0]
   return (
     <Layout home>
       <Head>
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <div className="home-block">
-          <div className="home-text">
-            <p>Testing out NextJS by building out a component-based blog.</p>
-            <p>
-              (The content is pulled from my trip around the globe with Remote Year for Ayzenberg Group. For the full story,{' '}
-              <a href="https://noe-rios.squarespace.com/blog/">Click Here</a>.)
-            </p>
-          </div>
-        </div>
+        <Container>
+          <Intro />
+          {heroPost && (
+            <HeroPost
+              title={heroPost.title}
+              coverImage={heroPost.coverImage}
+              date={heroPost.date}
+              slug={heroPost.slug}
+              excerpt={heroPost.excerpt}
+              />
+          )}
+        </Container>
+        
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <div className="blog-list">
@@ -55,4 +56,12 @@ export default function Home({ allPostsData }) {
       </section>
     </Layout>
   )
+}
+export async function getStaticProps() {
+  const allPostsData = getSortedPostsData()
+  return {
+    props: {
+      allPostsData
+    }
+  }
 }

@@ -1,6 +1,9 @@
 ---
 title: 'Kuala Lumpur II'
 date: '2016-09-23'
+author: 'Rolando Noe Rios'
+coverImage: '/images/blog/kualalumpurtwo/kl2.jpg'
+excerpt: 'Nothing cures a hangover like 40 screaming kids. Seriously though today was incredible. I volunteered at a school for Chin Refugees in Kuala Lumpur, but I ended up learning so much more than I was able to teach. The Rohingya people are referred to as the most persecuted people on earth and fled their homes due to strong hostility in Myanmar. In Malaysia, these children are unable to attend local schools, so the Chin Student Organisation has formed in hopes of providing these “forgotten children” with an education.'
 ---
 
 Nothing cures a hangover like 40 screaming kids. Seriously though today was incredible. I volunteered at a school for Chin Refugees in Kuala Lumpur, but I ended up learning so much more than I was able to teach. The Rohingya people are referred to as the most persecuted people on earth and fled their homes due to strong hostility in Myanmar. In Malaysia, these children are unable to attend local schools, so the Chin Student Organisation has formed in hopes of providing these “forgotten children” with an education.
