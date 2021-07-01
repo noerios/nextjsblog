@@ -21,6 +21,9 @@ export default function Home({ allPostsData }) {
       <section className={utilStyles.headingMd}>
         <Container>
           <Intro />
+          <br></br>
+          <div className="line"></div>
+          <br></br>
           {heroPost && (
             <HeroPost
               title={heroPost.title}
@@ -31,7 +34,7 @@ export default function Home({ allPostsData }) {
               />
           )}
         </Container>
-        
+        <div className="line"></div>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <div className="blog-list">
