@@ -8,7 +8,7 @@ export default function HeroPost({
     date,
     excerpt,
     author,
-    slug,
+    id,
 }) {
     return (
         <section>
@@ -16,7 +16,7 @@ export default function HeroPost({
                 <CoverImage
                     title={title}
                     src={coverImage}
-                    slug={slug}
+                    
                     height={620}
                     width={1240}
                 />
@@ -24,7 +24,7 @@ export default function HeroPost({
             <div className="md:grid md:grid-cols-2 md:gap-x-16 lg:gap-x-8 mb-20 md:mb-28">
                 <div>
                     <h3 className="hero-title">
-                        <Link as={`/posts/${slug}`} href="/posts/[slug]">
+                        <Link as={`/posts/${id}`} href="/posts/[slug]">
                             <a className='hover:undersline'>{title}</a>
                         </Link>
                     </h3>
